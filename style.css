@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+
+:root{
+    --cor-primaria:#E6E5A3;
+    --cor-secundaria: #665A48;
+    --cor-hover:#83764F;
+    --fonte-principal:'Libre Baskerville', serif;
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+   
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background: rgb(72,56,56);
+    background: linear-gradient(90deg, rgba(72,56,56,1) 12%, rgba(66,133,91,1) 65%, rgba(144,183,125,1) 89%);
+    font-size: 1.5rem;
+    font-family: var(--fonte-principal);
+    color: var(--cor-primaria);
+}
+    
+.cabecalho{
+    padding: 5em 5em;
+    text-align: center;
+}
+.cabecalho__itens__link{
+    margin: 2em;
+    text-decoration: none;
+    color: var(--cor-primaria);
+}
+.apresentacao{
+    display:flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.apresentacao__logo{
+    width: 50%;
+
+}
+.apresentacao__foto{
+    width: 75%;
+}
+.apresentacao__principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    text-align: center;
+} 
+.botao__contato{
+    background-color: var(--cor-secundaria);
+    color: var(--cor-primaria);
+    padding: 1em;
+    margin: 1em;
+    text-decoration: none;
+    border-radius: 0.5em;
+}
+.apresentacao__titulo{
+    margin: 2em 0;
+}  
+.apresentacao__descricao{
+    margin: 3em 10em;
+}
+.botao__contato:hover{
+    background-color: var(--cor-hover);
+}
+.rodape{
+    font-size: 0.5em ;
+    margin-top: auto ;
+    padding: 1.5em;
+    background-color: var(--cor-primaria);
+    text-align: center;
+    color: var(--cor-secundaria);
+}
+@media (max-width:950px){
+    .cabecalho__itens__link{
+        margin: 0.5em;
+    }
+    .apresentacao__logo{
+        width: 80%;
+    }
+    .apresentacao__descricao{
+        margin: auto;
+    }
+    .apresentacao__conteudo{
+        margin: 2em;
+    }
+
+    
+}
+@media (max-width:450px){
+    .cabecalho{
+        padding: 10%;
+    }
+    .cabecalho__itens{
+        display: flex;
+        justify-content: space-between;
+        padding: 10%;
+    }
+    .cabecalho__itens__link{
+        margin: auto;
+        font-size: 0.8em;
+    }
+    .apresentacao__descricao{
+        margin: auto;
+        font-size: 0.8em ;
+    }
+    .apresentacao__foto{
+      display: none;
+    }
+    .rodape{
+        margin-top: 1em;
+    }
+}
+   
+   
+    
+
+
+
+
+
+
+

@@ -1,0 +1,15 @@
+.container{
+    
+    
+    
+}
+.container__apresentacao{
+ 
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-image: url(/assets/lu_e_re.png);
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+}
