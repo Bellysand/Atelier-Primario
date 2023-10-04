@@ -118,6 +118,10 @@ body{
     .rodape{
         margin-top: 1em;
     }
+    ..botao__contato{
+        padding: 0.3em;
+        margin: 0.3em;
+    }
 }
    
    
