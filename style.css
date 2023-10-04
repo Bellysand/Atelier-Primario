@@ -19,7 +19,7 @@ body{
     box-sizing: border-box;
     background: rgb(72,56,56);
     background: linear-gradient(90deg, rgba(72,56,56,1) 12%, rgba(66,133,91,1) 65%, rgba(144,183,125,1) 89%);
-    font-size: 1.5rem;
+    font-size: 1.5em;
     font-family: var(--fonte-principal);
     color: var(--cor-primaria);
 }
@@ -104,6 +104,9 @@ body{
     .cabecalho__itens__link{
         margin: auto;
         font-size: 0.8em;
+    }
+    .apresentacao__titulo{
+        font-size: 1em;
     }
     .apresentacao__descricao{
         margin: auto;
